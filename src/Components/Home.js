@@ -69,14 +69,14 @@ const MyCarousel = () => (
      >
 
     <Box w="full" h={'100vh'} >
-     <Image src={img1} />
+     <Image src={img1} height="full" w={"full"} objectFit={'cover'} />
      <Heading bgColor={"blackAplha.600"} color={"white"} {...headingOption} >
         Watch The Future
      </Heading>
     </Box>
 
     <Box w="full" h={'100vh'} >
-     <Image src={img2} />
+     <Image src={img2} height="full" w={"full"} objectFit={'cover'} />
      <Heading bgColor={"blackAplha.600"} color={"white"} {...headingOption} >
         Future Is Gaming
      </Heading>
@@ -84,7 +84,7 @@ const MyCarousel = () => (
 
 
     <Box w="full" h={'100vh'} >
-     <Image src={img3} />
+     <Image src={img3} height="full" w={"full"} objectFit={'cover'} />
      <Heading bgColor={"blackAplha.600"} color={"white"} {...headingOption} >
         Gaming on Console
      </Heading>
@@ -92,7 +92,7 @@ const MyCarousel = () => (
 
     
     <Box w="full" h={'100vh'} >
-     <Image src={img4} />
+     <Image src={img4} height="full" w={"full"} objectFit={'cover'} />
      <Heading bgColor={"blackAplha.600"} color={"white"} {...headingOption} >
         Dive Deep in Imagination
      </Heading>
